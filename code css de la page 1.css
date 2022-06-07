@@ -1,0 +1,64 @@
+#fStorie
+{
+    width: 50%;
+    background-color: #f98e8e;
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 50px;
+}
+#storie
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#storie > p
+{
+    margin-bottom: 50px;
+}
+.informationStorie
+{
+    list-style-type: none;
+    display: none;
+}
+.imgStorie
+{
+    margin-top: -22px;
+}
+
+/* les css du bloc de publier commence ici */
+
+#blocPost
+{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    flex-direction: column;
+}
+#sectionName
+{
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+}
+#sectionName > a
+{
+    display: inline;
+    height: auto;
+    width: auto;
+}
+#infoprofil
+{
+    display: flex;
+    justify-content: space-around;
+}
+#infoprofil > ul
+{
+    list-style-type: none;
+    display: inline;
+    font-size: small;
+}

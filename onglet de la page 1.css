@@ -1,0 +1,22 @@
+#boutonInteraction
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #f98e8e;
+    height: 35px;
+    align-items: center;
+    left: 0px;
+}
+.libi:hover
+{
+    margin-top: 50%;
+}
+center > nav
+{
+    display: block;
+    float: bottom;
+    position: fixed;
+    bottom: 0px;
+}

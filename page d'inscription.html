@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf_8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="fiche d'inscription.css">
+        <title>Fiche d'inscription</title>
+    </head>
+    <body>
+        <header>
+            <!-- Place réservée à l'entête de la page, logo, nom, et cetera-->
+            <h1><center>
+                <img src="logo du site.png" width="100px">
+                <b id="b">iLife</b>
+            </center></h1>
+        </header>
+
+            <!-- debut de la section-->
+        
+            <section>
+                <form method="get" action="confirmation del'inscription.html">
+                    <fieldset id="cadre">                       <!--le premier fieldset-->
+                        <legend id="leg">Inscription</legend>
+
+                    <p>
+                        <fieldset>
+                            <label for="nom">Nom</label><br/>
+                            <input class="input" type="text" id="nom" name="nom" placeholder="votre nom"/><br/>
+                            <label for="post-nom">Post-nom</label><br/>
+                            <input class="input" type="text" id="post-nom" name="post-nom" placeholder="votre post-nom"/><br/>
+                            <label for="prénom">Prénom</label><br/>
+                            <input class="input" type="text" id="prénom" name="prénom" placeholder="votre prenom"/><br/>
+                        </fieldset>
+                    </p>
+
+                        <!-- fin de la case des noms -->
+
+                    <p>
+                        <fieldset>
+                        <label for="date de naissance">Date de naissance</label>
+                        <input class="input" type="date" id="date" name="date" min-year="1950"/><br/>
+                        </fieldset>
+                    </p>
+                    <p>
+                        <fieldset>
+                        <label for="age">Selectionnez votre âge</label>
+                        <input class="input" type="number" id="age" name="age" min="15" max="60" placeholder="15"/>
+                        </fieldset>
+                    </p>
+
+                        <!-- fin de la case de l'age -->
+                    
+                    <p>
+                        <fieldset id="fsexe">
+                            <legend>Selectionnez votre sexe</legend>
+                            <section><input class="sexe" type="radio" id="sex" name="sex" value="homme" required />
+                            <label for="man">Homme</label></section><br/>
+                            <section><input type="radio" class="sexe" id="sex" name="sex" value="femme">
+                            <label for="woman">Femme</label></section><br/>
+                            <section><input type="radio" class="sexe" id="sex" name="sex" value="aucun sexe">
+                            <label for="none">Aucun sexe</label></section><br/>
+                        </fieldset>
+                    </p>
+
+                    <!-- fin de la des sexe -->
+                    
+                    <p>
+                        <fieldset>
+                            <legend>Veuillez Selectionnez votre domaine</legend>
+                            <select id="sel">
+                                <option value="technique">Technique</option>
+                                <option value="scientifique">Scientifique</option>
+                                <option value="social">Social</option>
+                                <option value="littéraire">Littéraire</option>
+                                <option value="psychogique">Psychogique</option>
+                                <option value="artistique">Artistique</option>
+                            </select>
+                        </fieldset>
+                    </p>
+
+                    <!-- fin de la case des domaines -->
+
+                <p>
+                    <fieldset>
+                        <legend>Veuillez nous indiquer votre pays</legend>
+                        <select>
+                            <option value="République Démocratique du Congo">République Démocratique du Congo</option>
+                            <option>Rwanda</option>
+                            <option>La propriété de Teddy Cubaka</option>
+                        </select>
+                    </fieldset>
+                </p>
+
+                            <!-- fin du rayon pays -->
+
+                <p>
+                    <fieldset>
+                        <label for="email">Gmail</label><br/>
+                        <input class="input" type="email" id="email" name="email" placeholder="@gmail.com" required/><br/>
+                        <label for="tel">Phone number</label><br/>
+                        <input class="input" type="tel" id="tel" name="tel" value="+243 xxx xxx xxx" required/><br/>
+                        <label for="password">Votre mot de passe</label><br/>
+                        <input class="input" type="password" id="password" name="password" placeholder="xxx01" minlength="8" required/><br/>
+                        <label for="confirmation">Confirmez votre mot de passe</label><br/>
+                        <input class="input" type="password" id="confirmation" name="confirmation" placeholder="xxx01" minlength="8" required/><br/>
+                    </fieldset>
+                </p>
+
+            </fieldset>
+            <a id="ahrf" href="confirmation del'inscription.html"><fieldset id="submit">envoyer</fieldset></a>
+            <fieldset id="pied">
+                <a href="page de connexion.html" id="connexion"><p>Vous avez déjà un compte ?</p></a>
+            </fieldset>
+            </form>
+        </section>
+        
+    </body>
+</html>

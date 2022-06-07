@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de connexion</title>
+    <style>
+        body
+        {
+            color: blue;
+            background-color: #8282d2;
+            font-family: 'times new roman';
+        }
+        h1
+        {
+            margin: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            justify-content: center;
+        }
+        #f1
+        {
+            width: 500px;
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4px;
+            border: 3px solid #f98e8e;
+            background-color: #f98e8e;
+        }
+        #f2
+        {
+            height: 40px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            background-color: #f98e8e;
+            border: 3px solid #f98e8e;
+            margin-top: 5px;
+            border-radius: 4px;
+        }
+        #password
+        {
+            margin-bottom: 20px;
+        }
+        #a
+        {
+            text-decoration: none;
+            font-size: xx-large;
+            color: blue;
+            width: 100%;
+        }
+        #a:focus
+        {
+            background-color: #8282d2;
+        }
+        #f2:hover
+        {
+            background-color: #8282d2;
+        }
+        #f2:focus
+        {
+            background-color: #8282d2;
+        }
+        input
+        {
+            width: auto;
+            height: 30px;
+            background-color: rgb(228, 225, 225);
+        }
+        input:focus
+        {
+            background-color: #8282d2;
+        }
+        input:hover
+        {
+            background-color: #8282d2;
+        }
+        label
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+        }
+        #submit
+        {
+            width: 488px;
+            border: 3px solid #f98e8e;
+            background-color: #f98e8e;
+            display: flex;
+            justify-content: center;
+            margin-top: -5px;
+            border-radius: 4px;
+        }
+        #ahrf 
+        {
+            text-decoration: none;
+            font-size: x-large;
+            color: blue;
+            margin: auto;
+        }
+        #submit:hover
+        {
+            background-color: #8282d2;
+            border: 3px solid #f98e8e;
+        }
+        #submit:focus
+        {
+            background-color: #8282d2;
+            border: 3px solid #f98e8e; 
+        }
+
+        #ahrf
+        {
+            
+            text-align: center;
+            height: 40px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <!-- place du header de la page, le logo et le nom du site -->
+        <h1>
+            <center>
+                <img src="logo du site.png" width="200px">
+                
+            </center>
+        </h1>
+    </heder>
+    <section>
+        <form method="get" action="page 1.html">
+           <center>
+                <fieldset id="f1" for="bouton">
+                    <label for="gmail">votre Gmail</label>
+                    <input type="email" name="gmail" id="gmail" placeholder="@gmail.com" maxlength="50" minlength="10" required />
+                    <label for="password">Votre mot de passe</label>
+                    <input type="password" name="mot de passe" id="password" placeholder="XXX XXX XXX" maxlength="30" minlength="6" required />
+                </fieldset>
+                <a id="ahrf" href="confirmation del'inscription.html">
+                    <center>
+                        <fieldset id="submit">soumettre</fieldset>
+                    </center>
+                </a>
+           </center>
+           <center>
+               <fieldset id="f2"><a href="page d'inscription.html" id="a">Créer un compte</a></fieldset>
+           </center>
+        </form>
+    </section>
+</body>
+</html>

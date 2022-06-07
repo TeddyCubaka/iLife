@@ -1,0 +1,31 @@
+/*les codes CSS du bouton principal du site*/
+#bp
+{
+    margin-top: 120px;
+    float: left;
+    width: 30px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: fixed;
+    left: 10px;
+    top: 150px;
+    margin: auto;
+    background-color: #f98e8e;
+}
+#ulbp
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    position: absolute;
+    left: -34px;
+    top: -15px;
+    height: 110px;
+    justify-content: space-around;
+}
+.libp:hover
+{
+    margin-left: 3px;
+}
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirmation d'inscription</title>
+    <style>
+        body
+        {
+            background-color: rgb(219, 255, 146);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            align-content: center;
+            display: flex;
+            align-content: space-around;
+            flex-direction: column;
+            min-width: none;
+
+        }
+        h1
+        {
+            font-size: 48px;
+            font-family: 'century gotic';
+            color: rgb(5, 106, 236);
+            border-bottom: 2px solid rgb(5, 106, 236);
+        }
+        footer
+        {
+            display: flex;
+            align-content: space-between;
+            align-items: center;
+            background-color: skyblue;
+            height: 20%;
+            font-size: 20px;
+            font-style: inherit;
+            font-family: 'bell mt';
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        a
+        {
+            border-bottom: none;
+            border-left: 5px solid rgb(58, 58, 58);
+            color: rgb(58, 58, 58);
+            text-decoration: none;
+            margin-bottom: 6px;
+        }
+        a:hover
+        {
+            color: green;
+            font-size: 24px;
+            border: 0.4px solid aqua;
+        }
+        #section
+        {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+        fieldset
+        {
+            display: flex;
+            align-items: center;
+            max-width: 850px;
+            min-width: none;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--place à l'en-tête-->
+        <h1><center>NOM DU SITE</center></h1>
+    </header>
+            <!-- Place a la section -->
+    <section id="section">
+        <p>
+            Veuillez saisir envoyer sur votre numéro et sur votre compte gmail.
+            veuillez vérifier votre boîte de messagerie.
+        </p>
+        <form method="get" action="page 1.html">
+            <fieldset>
+                <label for="confirmation">Veuillez saisir le code qu'on vous a envoyé ici.</label><br />
+                <center>
+                    <input type="text" maxlength="6" id="confirmation" name="confirmation" placeholder="xxx-xxx">
+                    <input type="submit">
+                </center>
+            </fieldset>
+        </form>
+        <p aria-required="true">
+            Avant de valider votre inscription rassurez-vous d'avoir lu et compris nos règle de confidentialité.
+        </p>
+        <p>Les règles de confidentialité sont importants car ils nous permettent de savoir si vous corespondez au 
+            profile recommandée pour nous rejoindre et si vous êtes d'accord aux règles établie sur notre sitre pour
+            une bonne navigation. Ceci étant dit, merci de nous avoir chosi.
+        </p>
+        <footer>
+
+            <!-- Place du pied du site -->
+
+            <a href="#">A propos de nous</a>
+            <a href="#">A propos de l'auteur</a>
+            <a href="#">paramètre de la page</a>
+            <a href="#">Règle et confidentialité</a>
+            <a href="#">Réglage de la page</a>
+            <p id="re">La société XXXX vous dit merci d'avoir visité son dite web</p>
+
+        </footer>
+    </section>
+</body>
+</html>
