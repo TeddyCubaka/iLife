@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header du site.css">
+    <link rel="stylesheet" href="onglet de la page 1.css">
+    <link rel="stylesheet" href="bouton principal du site.css">
+    <link rel="stylesheet" href="code css de la page 1.css"/>
+    <link rel="icon" type="image" href="logo second.png" width="16px">
+    <title>iLife</title>
+</head>
+<body bgcolor="#8282d2">
+
+        <!-- le header du site -->
+
+    <header>
+        <!-- Place a l'entete de la page -->
+        <div id="logo">
+            <img src="logo second.png" width="50px" alt="logo du site en format png" id="img" style="margin: 10px;">
+            <h1>iLife</h1>
+        </div>
+               <!-- les boutons de navigation dans l'en-tête-->
+        <ul id="boutons">
+            <li class="bouton"><a href="page de profil.html" title="profil"><img src="img profil.png" width="40px" style="border-radius: 30px;" id="photo profil"/></a></li>       <!--bouton de profil-->
+            <li class="bouton"><a href="page interactions.html" title="interactions"><img src="img interaction.png" width="40px" style="border-radius: 30px;" id="photo interaction"></a></li>     <!--bouton d'interaction-->
+            <li class="bouton"><a href="page notifications.html" title="notifications"><img src="img notification.png" width="40px" style="border-radius: 10px;" id="notifications"></a></li>      <!--bouton de notification-->
+            <li class="bouton"><a href="page paramètres.html" title="paramètre"><img src="img setting.png" width="40px" style="border-radius: 30px;" id="setting"></a></li>       <!--bouton setting-->
+        </ul>
+    </header>
+    <nav id="bp">          <!--le bouton principal du site général-->
+        <ul id="ulbp">
+            <li><a href="Accueil principal.html" title="nom du site"><img src="img accueil 1.png" width="20px" class="libp"></a></li>
+            <li><a href="iBoutique.html" title="iBoutique"><img src="img iBoutique.png" width="20px" class="libp"></a></li>
+            <li><a href="actualité.html" title="actualité" ><img src="img actuality.png" width="20px" class="libp"></a></li>
+        </ul>
+    </nav>
+    <center>
+            <nav id="boutonInteraction">
+                <!--les onglets de navigations dans la page de l'interaction-->
+                <a href="page 1.html" title="accueil"><img src="img accueil 1.png" width="25px" class="libi" /></a>
+                <!--bouton d4accueil-->
+                <a href="page actualité.html" title="actualité"><img src="img actuality.png" width="25px" class="libi" /></a>
+                <!--bouton d'actualité-->
+                <a href="page à la une.html" title="à la une"><img src="img à la une.png" width="25px" class="libi"></a>
+                <!--bouton de a la une-->
+                <a href="page vidéo" title="vidéo"><img src="img video.png" width="25px" class="libi"></a>
+                <!--bouton de video-->
+                <a href="page groupe" title="groupes"><img src="img groupe.png" class="libi" width="25px"></a>
+                <!--bouton de groupe-->
+                <a href="page interaction" title="célébrité"><img src="img celebrity.png" class="libi" width="25px"></a>
+                <!--bouton de celebrity-->
+                <a href="page interaction" title="pages"><img src="img page.png" width="25px" class="libi" /></a>
+                <!--bouton de page-->
+            </nav>
+    </center>
+                        <!-- Place aux stories -->
+    <section id="sctn">
+        <center>
+            <fieldset id="fStorie">
+                <legend>stories</legend>
+                <article id="storie">
+                    <p >
+                        <img src="img profil.png" class="imgStorie" width="40px" style="border-radius: 30px;">                        
+                        <ul class="informationStorie">
+                            <li><sub>nom 1</sub></li>
+                            <li><sub>post-nom</sub></li>
+                            <li><sub>loc/humeur</sub></li>
+                        </ul>
+                    </p>
+                    <p>
+                        <img src="img profil.png" class="imgStorie" width="40px" style="border-radius: 30px;">
+                        <ul class="informationStorie">
+                            <li>nom 1</li>
+                            <li>post-nom</li>
+                            <li>loc/humeur</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <img src="img profil.png" class="imgStorie" width="40px" style="border-radius: 30px;">
+                    
+                        <ul class="informationStorie">
+                            <li><sub>nom 1</sub></li>
+                            <li><sub>post-nom</sub></li>
+                            <li><sub>loc/humeur</sub></li>
+                        </ul>
+                    </p>
+                    <p>
+                        <img src="img profil.png" class="imgStorie" width="40px" style="border-radius: 30px;">
+                    
+                        <ul class="informationStorie">
+                            <li><sub>nom 1</sub></li>
+                            <li><sub>post-nom</sub></li>
+                            <li><sub>loc/humeur</sub></li>
+                        </ul>
+                    </p>
+                    <a href="page interactions.html"><button id="boutonStorie">voir <img src="img plus.png" width="15px"></button></a>
+                </article>
+            </fieldset>
+        </center>
+
+                    <!-- le bloc publier ici -->
+
+        <section style="margin-top: 30px"><center>
+            <fieldset id="blocPost">
+                <section id="sectionName"><a href="page profil" id="infoprofil">
+                    <img src="img profil.png" width="40px">
+                    <ul id="infoperso">
+                        <li>Nom</li>
+                        <li>Post-nom</li>
+                        <li>Situation</li>
+                    </ul>
+                </a></section><br />
+                <section id="sectionPost">
+                    <h2>publication</h2>
+                    <form>
+                        <textarea name="zone de publication" id="publication"></textarea>
+                        <input type="submit" value="publier">
+                    </form>
+                </section>
+                <section id="sectionLiens">
+                    <a href="page de publication.html">Choisir une photo/vidéo</a>
+                    <a href="page de publication.html">indentifier des personnes</a>
+                    <a href="page de publication.html">Ajouter une humeur/localisation/etc...</a>
+                </section>
+            </fieldset>
+        </center></section>
+
+                       <!-- bloc des publications -->
+
+        <article>
+            <fieldset>
+                <div>
+                    <a href="page profil">
+                        <img src="img profil.png" width="40">
+                        <ul>
+                            <li>Nom</li>
+                            <li>Post-nom</li>
+                            <li>Situation</li>
+                        </ul>
+                    </a>
+                    <p aria-valuetext="Menu">   <!-- bloc d'option d'une publication-->
+                        <ul>
+                            <li>Enreigstrer</li>
+                            <li>Sauvegarder</li>
+                            <li>Autres</li>
+                        </ul>
+                    </p>
+                </div>
+                <p>         <!-- zone de la photo -->
+                    <img src="LOGO DÖTSCHZE.jpg" alt="example" width="200px"/>
+                </p>            <!-- zone des reaction a la publication -->
+                    <ul>
+                        <!--zone des réactions-->
+                        <li><a href="#reaction">Avis</a></li>
+                        <li><a href="#commentaire">Commenter</a></li>
+                        <li><a href="#">Partager</a></li>
+                        <li>heure de publication</li>
+                    </ul>
+                <fieldset>
+                    <div>
+                        <img src="img fond.png" width="50px" style="border-radius: 40px;"/>          <!-- la photo de profil de la personne qui a poste -->
+                        <name>Other person</name>
+                        <p>contenu</p>
+                        <p>Réagir</p>
+                        <form method="post" action="page 1.html">
+                            <textarea placeholder="Placer votre commentaire ici" id="commentaire"></textarea>
+                            <input type="submit" for="commentaire">
+                        </form>
+                    </div>
+                </fieldset>
+            </fieldset>
+        </article>
+    </section>
+    <section id="section 1">                <!--la section 1 pour ce qui n'implique pas l'utilisateur-->
+        <fieldset>
+            <fieldset>
+                <aside>             <!--bloc d'actualité propposé pqr le site-->
+                    <a href="page actualité.html">
+                        <img src="img fond.png" id="actuality" width="100px"/>
+                        <legend for="actuality">le post de l'actualité s'affichera ici</legend>
+                    </a>
+                    <a href="page actualité.html">voir plus<img src="img plus.png" width="15px"/></a>
+                </aside>
+            </fieldset>
+            <fieldset>
+                <aside>
+                    <p>A la une !</p>       <!--bloc de à la une proposé par le site-->
+                    <img src="#.jpg" width="100px"/>
+                    <span>le text d'une publication à la une s'afichera ici</span>
+                    <a href="page à la une.html"><img src="img plus.png" width="15px"/></a>
+                </aside>
+            </fieldset>
+        </fieldset>
+    </section>
+    <section id="section 2">            <!--la section 2 pour toutes information qui concerne l'interaction de l'utilisateur et ses interacteur-->
+        <fieldset>
+            <legend>Suggestion</legend>
+            <aside>
+                <fieldset>
+                    <legend>notifications</legend>
+                    <fieldset>
+                        <s>"les notifications s'aficheront ici entre guillemets"</s>
+                        <sub>l'heure de la notification sera ici</sub>
+                    </fieldset>
+                    <a href="page notifications.html"><img src="img down.png" width="15px">voir plus de notifications</a>       <!--lien qui mène vers la page des notifications-->
+                </fieldset>
+            </aside>
+            <aside>
+                <fieldset>
+                    <p>
+                        Certain de vos amis sont en ligne
+                        <div>
+                            <a href="page profil information.html"><img src="img fond.png" width="50px" style="border-radius: 30px;"></a>
+                            <div>
+                                <ul><a href="page profil information.html"></a>
+                                    <li>Nom</li>
+                                    <li>post-nom</li>
+                                </ul>
+                            </div>
+                            <form action="page message_message">
+                                <input type="submit" value="message">
+                            </form>
+                        </div>
+                    </p>
+                </fieldset>
+            </aside>
+            <fieldset>
+                <aside>
+                    <p>
+                        vous pouriez aimer ces goupes et ces Page
+                        <ul>
+                            <li><a href="page des sugestion">the first group or page</a></li>
+                            <li><a href="page des sugestion">the second group or page</a></li>
+                            <li><a href="page des sugestion">the thirth group or page</a></li>
+                            <li><a href="page des sugestion">voir la suite</a></li>
+                        </ul>
+                    </p>
+                </aside>
+            </fieldset>
+        </fieldset>
+    </section>
+</body>
+</html>
